@@ -66,4 +66,38 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-# cv-graffiti
+
+
+# CV-GRAFFITI
+
+An application for drawing in the browser.
+
+## Instructions
+
+1. First checkout the respository from github.
+2. Navigate into the directory. `cd cv-graffiti`
+3. `/node_modules` have been included for ease of use, but in case this causes an issue, you can `npm install`
+
+## Running the application
+
+$ npm start
+(port 3000)
+
+## Requirements
+
+#### Write a simple application called "Graffiti" which allows you to draw/paint inside the browser. One side of this application (the code running in one of the browser windows) should be built using React with Redux.
+
+I made the assumption that for this project functionality was more important than presentation, and prioritized as such.
+
+## Assumptions & Limitations
+
+1. basic functionality is more important than expanded functionality, and prioritized as such.
+2. the application would not support a history of drawn objects, namely, no undo/redo, selection, or selective deletion.
+3. leaving the canvas would trigger a "drawing complete" event
+4. that we did not need to persist the drawings by storing into a database
+
+## TODOs & Known Issues
+
+1. Unit testing needs to be implemented
+2. error logging was not implemented
+3. There are a number of places where data should be validated
